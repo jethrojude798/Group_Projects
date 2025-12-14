@@ -44,15 +44,39 @@ yoruba = {
        "house" : "ile"
           }
 
+idoma = {
+    "I/me" : "Àm",
+   "you" : "Owò",
+   "we/us" : "Alò",
+   "eye" : "Eyì",
+   "Mouth" : "Ókònú",
+   "Ear" : "Àhò",
+   "Breast" : "Àmé",
+   "Hand" : "Ìgàlà",
+   " Good evening " : "Nma chi",
+   "we" : "Alo",
+   "one" : "Áyà",
+   "How is the day" : "Iche be",
+   "Thank you" : "Ahinya",
+   "Water" : "Enyi",
+   "Fire" : "Èlé",
+   "My child" : "Oyìm",
+   "person" : "Ótú",
+   "Chair" : "Egà",
+   "Queen" : "òchànyà",
+   "house" : "òfi"
+
+}
 
 
 languages = {
     "jukun" : jukun,
     "yoruba" : yoruba,
+    "idoma" : idoma,
 }
 
 print("Language Translator")
-print("choose a Language: jukun,yoruba, ")
+print("choose a Language: jukun,yoruba,idoma, ")
 
 language =  input("Enter Language:")
 
