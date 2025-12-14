@@ -21,13 +21,38 @@ jukun = {
     "Forget" : "Mujin"
      }
 
+yoruba = {
+       "me" : "Emi-I o",
+       "Hello" : "E nle",
+       "Goodbye" : "O dabo",
+       "Thank you" : "o se",
+       "How are you" : "Bawo ni",
+       "I'm fine" : "Mo wa l'ayo",
+       "slowly" : "Jeje",
+       "where is..." : "Nibi ni",
+       "it's okay" : " O taye",
+       "I love you" : "Mo n be o",
+       "God" : "Olorun",
+       "fire" : "Iná",
+       "Water" : "Omi",
+       "food" : "On je",
+       "mother" : "iya",
+       "father" : "Baba",
+       "Help" : "Egde",
+       "Money" : "owo",
+       "work" : "ise",
+       "house" : "ile"
+          }
+
+
 
 languages = {
     "jukun" : jukun,
+    "yoruba" : yoruba,
 }
 
 print("Language Translator")
-print("choose a Language: jukun, ")
+print("choose a Language: jukun,yoruba, ")
 
 language =  input("Enter Language:")
 
