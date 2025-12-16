@@ -1,5 +1,5 @@
 jukun = {
-    "Water" : "Zape",
+    "Water" : "Jyape",
     "School" : "Manta",
     "Good evening" : "Kyebara",
     "How are you" : "Foni",
