@@ -114,7 +114,7 @@ else:
         print("translation is:",
         languages[language][english_word])
     else:
-        print("word not found in the dictionary")
+        print("word not found in the dictionary wait for update next year")
 
 
 
