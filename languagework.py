@@ -67,12 +67,37 @@ idoma = {
    "house" : "òfi"
 
 }
+igala={
+"Morning" : "Odudu",
+  "When" : "Iko",
+  "Where" : "Ugbo",
+  "What" : "Ewnu",
+  "Evening" : "Ane",
+  "God" : "Ojo, Ojowa",
+  "Learning" : "Ukoche",
+ "Father" : "Attah",
+ "Mother" : "Iye",
+
+"Sibling" : "Omaye",
+ "Door" : "Ona",
+ "Road" : "Ona",
+ "Song" : "Eli",
+ "Man" : "Onekele",
+ "Woman" : "Onobule",
+ "light" :" Una",
+ "Fire" : "Una",
+ "Water" : "Omi",
+ "Child" : "Oma",
+ "My siblings" : "Amomaye"
+
+}
 
 
 languages = {
     "jukun" : jukun,
     "yoruba" : yoruba,
     "idoma" : idoma,
+    "igala" : igala,
 }
 
 print("Language Translator")
