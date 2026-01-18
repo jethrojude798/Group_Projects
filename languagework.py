@@ -1,4 +1,10 @@
-jukun = {
+import streamlit as st
+st.set_page_config(page_title="Multi-language Dictionary",
+layout="centered")
+
+st.title("Multi-Language Dictionary App")
+dictionary = {
+    "jukun":{
     "Water" : "Jyape",
     "School" : "Manta",
     "Good evening" : "Kyebara",
@@ -19,19 +25,19 @@ jukun = {
     "Take" : "Pann",
     "House" : "Ta'an",
     "Forget" : "Mujin"
-     }
+     },
 
-yoruba = {
+    "yoruba": {
        "me" : "Emi-I o",
-       "Hello" : "E nle",
-       "Goodbye" : "O dabo",
-       "Thank you" : "o se",
-       "How are you" : "Bawo ni",
-       "I'm fine" : "Mo wa l'ayo",
+       "hello" : "E nle",
+       "goodbye" : "O dabo",
+       "thank you" : "o se",
+       "how are you" : "Bawo ni",
+       "i'm fine" : "Mo wa l'ayo",
        "slowly" : "Jeje",
        "where is..." : "Nibi ni",
        "it's okay" : " O taye",
-       "I love you" : "Mo n be o",
+       "i love you" : "Mo n be o",
        "God" : "Olorun",
        "fire" : "Iná",
        "Water" : "Omi",
@@ -39,57 +45,52 @@ yoruba = {
        "mother" : "iya",
        "father" : "Baba",
        "Help" : "Egde",
-       "Money" : "owo",
+       "money" : "owo",
        "work" : "ise",
        "house" : "ile"
-          }
+    },
 
-idoma = {
+"idoma":{
     "I/me" : "Àm",
    "you" : "Owò",
    "we/us" : "Alò",
    "eye" : "Eyì",
    "Mouth" : "Ókònú",
    "Ear" : "Àhò",
-   "Breast" : "Àmé",
-   "Hand" : "Ìgàlà",
+   "breast" : "Àmé",
+   "hand" : "Ìgàlà",
    " Good evening " : "Nma chi",
    "we" : "Alo",
    "one" : "Áyà",
-   "How is the day" : "Iche be",
-   "Thank you" : "Ahinya",
-   "Water" : "Enyi",
+   "how is the day" : "Iche be",
+   "thank you" : "Ahinya",
+   "water" : "Enyi",
    "Fire" : "Èlé",
-   "My child" : "Oyìm",
+   "my child" : "Oyìm",
    "person" : "Ótú",
    "Chair" : "Egà",
-   "Queen" : "òchànyà",
+   "queen" : "òchànyà",
    "house" : "òfi"
 
 }
-
-
-languages = {
-    "jukun" : jukun,
-    "yoruba" : yoruba,
-    "idoma" : idoma,
 }
 
-print("Language Translator")
-print("choose a Language: jukun,yoruba,idoma, ")
 
-language =  input("Enter Language:")
+language = st.selectbox(
+    "Select a language",
+    list(dictionary.keys())
+)
 
-if language not in languages:
-    print("Language not found,input right language")
-else:
-    english_word = input("Enter a English word to translate")
+word = st.text_input("Enter a word").strip().lower()
 
-    if english_word in languages[language]:
-        print("translation is:",
-        languages[language][english_word])
+if st.button("search"):
+    if word:
+        meaning = dictionary[language].get(word)
+        if meaning:
+            st.subheader("Meaning")
+            st.write(meaning)
+        else:
+            st.error("Word not found in this language dictionary.")
     else:
-        print("word not found in the dictionary")
-
-
+        st.warning("Please enter a word")
 
