@@ -45,7 +45,7 @@ dictionary = {
        "food" : "On je",
        "mother" : "iya",
        "father" : "Baba",
-       "Help" : "Egde",
+       "help" : "Egde",
        "money" : "owo",
        "work" : "ise",
        "house" : "ile"
