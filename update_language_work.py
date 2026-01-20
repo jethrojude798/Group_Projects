@@ -6,26 +6,26 @@ st.title("Multi-Language Dictionary App")
 
 dictionary = {
     "jukun":{
-    "Water" : "Jyape",
-    "School" : "Manta",
-    "Good evening" : "Kyebara",
-    "How are you" : "Foni",
-    "One" : "Zum",
-    "Help" : "Sa-zam",
-    "Girl" : "Wa'a",
-    "Write" : "Ba",
-    "Town" : "Sunwan",
-    "Fire" : "Puru",
-    "Please" : "Sa'akuri",
-    "Good morning" : "Kyabeni",
-    "Hand" :"Avoo",
-    "Come" : "Bi'",
-    "Mountain" : "Akwen",
-    "Stomach" : "Afin",
-    "Foot" : "Abee",
-    "Take" : "Pann",
-    "House" : "Ta'an",
-    "Forget" : "Mujin"
+    "water" : "Jyape",
+    "school" : "Manta",
+    "good evening" : "Kyebara",
+    "how are you" : "Foni",
+    "one" : "Zum",
+    "help" : "Sa-zam",
+    "girl" : "Wa'a",
+    "write" : "Ba",
+    "town" : "Sunwan",
+    "fire" : "Puru",
+    "please" : "Sa'akuri",
+    "good morning" : "Kyabeni",
+    "hand" :"Avoo",
+    "come" : "Bi'",
+    "mountain" : "Akwen",
+    "stomach" : "Afin",
+    "foot" : "Abee",
+    "take" : "Pann",
+    "house" : "Ta'an",
+    "forget" : "Mujin"
      },
 
     "yoruba": {
@@ -52,29 +52,53 @@ dictionary = {
     },
 
 "idoma":{
-    "I/me" : "Àm",
+    "i/me" : "Àm",
    "you" : "Owò",
    "we/us" : "Alò",
    "eye" : "Eyì",
-   "Mouth" : "Ókònú",
-   "Ear" : "Àhò",
+   "mouth" : "Ókònú",
+   "ear" : "Àhò",
    "breast" : "Àmé",
    "hand" : "Ìgàlà",
-   " Good evening " : "Nma chi",
+   "good evening " : "Nma chi",
    "we" : "Alo",
    "one" : "Áyà",
    "how is the day" : "Iche be",
    "thank you" : "Ahinya",
    "water" : "Enyi",
-   "Fire" : "Èlé",
+   "fire" : "Èlé",
    "my child" : "Oyìm",
    "person" : "Ótú",
-   "Chair" : "Egà",
+   "chair" : "Egà",
    "queen" : "òchànyà",
    "house" : "òfi"
+    },
+
+"hausa":{
+    "hello/Hi": "sannu",
+    "thank you": "Na gode",
+    "please": "Don Allah",
+    "yes": "Ee",
+    "girl": "Yarinya",
+    "water": "Ruwa",
+    "boy": "Yaro",
+    "go": "Tafi",
+    "money": "kudi",
+    "car": "Mota",
+    "come": "zo",
+    "king": "sarki",
+    "market": "kasuwa",
+    "teacher": "malam",
+    "house": "gida",
+    "no": "A'a",
+    "food": "abinchi",
+    "delicious": "dadi",
+    "fine": "lafiya",
+    "congratulations": "barka"
+    },
 
 }
-}
+
 
 
 language = st.selectbox(
