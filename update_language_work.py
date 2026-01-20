@@ -39,9 +39,9 @@ dictionary = {
        "where is..." : "Nibi ni",
        "it's okay" : " O taye",
        "i love you" : "Mo n be o",
-       "God" : "Olorun",
+       "god" : "Olorun",
        "fire" : "Iná",
-       "Water" : "Omi",
+       "water" : "Omi",
        "food" : "On je",
        "mother" : "iya",
        "father" : "Baba",
@@ -52,7 +52,7 @@ dictionary = {
     },
 
 "idoma":{
-    "i/me" : "Àm",
+    "me" : "Àm",
    "you" : "Owò",
    "we/us" : "Alò",
    "eye" : "Eyì",
@@ -75,7 +75,7 @@ dictionary = {
     },
 
 "hausa":{
-    "hello/Hi": "sannu",
+    "hello": "sannu",
     "thank you": "Na gode",
     "please": "Don Allah",
     "yes": "Ee",
