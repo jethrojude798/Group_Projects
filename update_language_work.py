@@ -3,6 +3,7 @@ st.set_page_config(page_title="Multi-language Dictionary",
 layout="centered")
 
 st.title("Multi-Language Dictionary App")
+
 dictionary = {
     "jukun":{
     "Water" : "Jyape",
